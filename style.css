@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Table Of Contents 
+1. Navigation
+2. Header
+3. About me
+4. My Work/Work History
+5. Contact Section (main)
+6. Contact Page
+*/
+
+
+/* 1. Navigation */
+.navigation-bg {
+    background-color: #885a5aff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+/* 2. Header */
+.head-greeting {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url(assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    ;
+    background-blend-mode: overlay;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Heading end*/
+
+/* 3. About Me */
+.bio-section {
+    width: 100%;
+}
+
+.bio-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+}
+
+.about-me {
+    color: #fff;
+    padding: 20px;
+    line-height: 1.8em;
+    background-color: #84B082;
+}
+
+.about-me h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 15px;
+}
+
+#me-paragraph {
+    margin-right: 15px;
+    padding: 10px;
+    line-height: 1.9em;
+    font-size: 18px;
+}
+
+/* End About Me */
+
+/* 4. Work History */
+.clearfix {
+    clear: both;
+}
+
+.work-history {
+    padding-top: 60px;
+}
+
+.resume {
+    background-color: rgba(101, 133, 99, 0.31);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 24px;
+}
+
+.portfolio {
+    color: rgba(53, 58, 71, 1);
+    padding: 20px;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+
+.portfolio h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#folio-paragraph {
+    margin: 15px;
+    padding: 10px;
+}
+
+.codepen1,
+.codepen2 {
+    background-color: rgba(170, 170, 170, 0.159);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* end Work History*/
+
+/* 5. Contact */
+.work-with-me {
+    color: #fff;
+    padding: 20px;
+    line-height: 1.8em;
+    background-color: #84B082;
+    text-align: center;
+}
+
+.work-with-me h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#contact-paragraph {
+    margin: 15px;
+    padding: 10px;
+}
+
+.contact-btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.contact-btn a {
+    color: inherit;
+}
+
+.contact-btn:hover {
+    color: white;
+    background-color: #353A47;
+    border: 1px solid #353A47;
+
+}
+
+/* end contact */
+
+
+/* 6. Contact Page*/
+.contact-greeting {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me {
+    color: #fff;
+    padding: 20px;
+    line-height: 1.8em;
+    background-color: #84B082;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+.contact-me h2 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.contact-form {
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.contact-form-btn {
+    margin: 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.social-blurb {
+    padding: 30px;
+    text-align: center;
+}
+
+.social-follow {
+    font-size: 36px;
+    letter-spacing: 6px;
+}
+
+.social-follow a {
+    color: inherit;
+}
+
+.social-follow h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* End Contact Page */
+/* 7. Footer */
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 885a5aff;
+    text-align: center;
+}
+
+.footer-social {
+    font-size: 30px;
+    letter-spacing: 15px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.footer-social a {
+    color: white;
+}
+
+/* Here 500px is small screen size. change it as per your requirement */
+
+@media screen and (max-width: 500px) {
+    .footer-social {
+        display: none;
+    }
+}
