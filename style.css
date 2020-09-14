@@ -46,6 +46,10 @@
     background-size: cover;
 }
 
+.svg-home {
+    color: white;
+}
+
 .portfolio-parallax {
     background-image: url(assets/images/altumcode-dC6Pb2JdAqs-unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-blend-mode: overlay;
