@@ -124,7 +124,6 @@
     box-shadow: 5px 5px 10px rgba(103, 103, 104, 0.246);
 }
 
-
 .resume h2 {
     font-size: 24px;
 }
@@ -150,12 +149,28 @@
 }
 
 .codepen1,
-.codepen2 {
+.codepen2,
+.codepen3,
+.codepen4 {
     background-color: rgba(170, 170, 170, 0.159);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.15);
+}
+
+.about-work {
+    color: #fff;
+    padding: 60px;
+    line-height: 1.8em;
+    background-color: #84B082;
+    text-align: center;
+
+}
+
+.about-work h1 {
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .projects-btn {
