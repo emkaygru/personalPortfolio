@@ -46,6 +46,26 @@
     background-size: cover;
 }
 
+.portfolio-parallax {
+    background-image: url(assets/images/altumcode-dC6Pb2JdAqs-unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-parallax {
+    background-image: url(assets/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Heading end*/
 
 /* 3. About Me */
@@ -58,6 +78,8 @@
     height: 300px;
     border-radius: 50%;
     float: left;
+    box-shadow: 5px 5px 10px rgba(53, 58, 71, 0.096);
+    margin-top: 15px;
 }
 
 .about-me {
@@ -93,11 +115,13 @@
 }
 
 .resume {
-    background-color: rgba(101, 133, 99, 0.31);
+    background-color: rgba(101, 133, 99, 0.205);
     border-radius: 20px;
     margin: 10px;
     padding: 15px 15px 30px 15px;
     text-align: center;
+    box-shadow: 5px 5px 10px rgba(103, 103, 104, 0.246);
+}
 }
 
 .resume h2 {
@@ -113,9 +137,10 @@
 
 
 .portfolio h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     font-weight: 800;
+    letter-spacing: 4px;
 }
 
 #folio-paragraph {
@@ -129,23 +154,44 @@
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
+    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.15);
 }
+
+.projects-btn {
+    margin: 10px;
+    color: #353A47;
+    border: 1px solid #353A47;
+}
+
+.projects-btn a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.projects-btn:hover {
+    color: white;
+    background-color: #353A47;
+    border: 1px solid #353A47;
+
+}
+
 
 /* end Work History*/
 
 /* 5. Contact */
 .work-with-me {
     color: #fff;
-    padding: 20px;
+    padding: 40px;
     line-height: 1.8em;
     background-color: #84B082;
     text-align: center;
 }
 
 .work-with-me h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     font-weight: 800;
+    letter-spacing: 4px;
 }
 
 #contact-paragraph {
@@ -160,12 +206,13 @@
 
 .contact-btn a {
     color: inherit;
+    text-decoration: none;
 }
 
 .contact-btn:hover {
-    color: white;
-    background-color: #353A47;
-    border: 1px solid #353A47;
+    color: #84B082;
+    background-color: white;
+    border: 1px solid white;
 
 }
 
@@ -237,19 +284,14 @@
 
 /* End Contact Page */
 /* 7. Footer */
-footer {
 
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: 885a5aff;
+footer {
+    background-color: #885a5aff;
     text-align: center;
 }
 
 .footer-social {
-    font-size: 30px;
-    letter-spacing: 15px;
-    padding: 10px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -257,10 +299,7 @@ footer {
     color: white;
 }
 
-/* Here 500px is small screen size. change it as per your requirement */
-
-@media screen and (max-width: 500px) {
-    .footer-social {
-        display: none;
-    }
+.copyright,
+a {
+    color: white;
 }
