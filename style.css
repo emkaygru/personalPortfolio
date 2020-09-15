@@ -47,21 +47,21 @@
 }
 
 .svg-home {
-    background: url(assets/images/testing.svg);
+
     fill: #fff;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    width: 50%;
+
     /* width: 50%; */
 }
 
-/* #home-img {
-    width: 1920px;
-    height: 1080px;
-} */
+#home-img {
+    padding-bottom: 100px;
+}
 
-#portfolio-img {
+*/ #portfolio-img {
     padding-top: 80px;
     width: 700px;
 }
