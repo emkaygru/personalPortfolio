@@ -59,7 +59,6 @@
 }
 
 
-
 .portfolio-parallax {
     display: flex;
     flex-direction: column;
@@ -287,7 +286,6 @@
 }
 
 
-
 .contact-me h2 {
     font-size: 3em;
     font-weight: 400;
@@ -310,24 +308,6 @@
     letter-spacing: 2px;
 }
 
-.social-blurb {
-    padding: 30px;
-    text-align: center;
-}
-
-.social-follow {
-    font-size: 36px;
-    letter-spacing: 6px;
-}
-
-.social-follow a {
-    color: inherit;
-}
-
-.social-follow h2 {
-    font-size: 1.2em;
-    font-weight: 400;
-}
 
 /* End Contact Page */
 /* 7. Footer */
