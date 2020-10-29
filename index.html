@@ -133,10 +133,9 @@
 
                 <article class="col-sm codepen1">
                     <h2>askKaren App</h2>
-                    <img src="assets/images/AskKaren.png" alt="askKaren App Screen Shot" class="port-img rounded"
-                        href="https://emkaygru.github.io/AskKaren/">
+                    <img src="assets/images/AskKaren.png" alt="askKaren App Screen Shot" class="port-img rounded">
                     <button class="karen-btn btn btn-outline-success github-btn" type="button"
-                        onclick="location.href='https://github.com/emkaygru/AskKaren';">View
+                        onclick="displayKaren()">View
                         Github Repo</button>
                 </article>
 
@@ -144,26 +143,23 @@
 
                     <h2>Day Scheduler</h2>
                     <img src="assets/images/dayplanner.png" alt="Work Day Scheduler App Screen Shot"
-                        class="port-img rounded" href="https://github.com/emkaygru/workDayScheduler">
-                    <button class="btn btn-outline-success github-btn" type="button"
-                        onclick="location.href='https://github.com/emkaygru/workDayScheduler';">View
+                        class="port-img rounded">
+                    <button class="btn btn-outline-success github-btn" type="button" onclick="showSchedule()">View
                         Github Repo</button>
                 </article>
                 <article class="col-sm codepen2">
 
                     <h2>Pwd. Generator</h2>
                     <img src="assets/images/passwordGenerator.png" alt="Password Generator App Screen Shot"
-                        class="port-img rounded" href="https://github.com/emkaygru/passwordGenerator">
-                    <button class="btn btn-outline-success github-btn" type="button"
-                        onclick="location.href='https://github.com/emkaygru/passwordGenerator';">View
+                        class="port-img rounded">
+                    <button class="btn btn-outline-success github-btn" type="button" onclick="showPassword()">View
                         Github Repo</button>
                 </article>
             </article>
 
         </article>
 
-        <button type="button" class="btn btn-outline-success projects-btn"
-            onclick="location.href='portfolio.html';">View
+        <button type="button" class="btn btn-outline-success projects-btn" onclick="showPortfolio()">View
             Other Projects</button>
     </section>
     <!-- Work With Me/Contact  -->
@@ -176,8 +172,7 @@
                 background in
                 design gives me the opportunity create beautiful websites. I'm a right-brained creative in a
                 left-brained world. Please contact me - I'd love to work together!</p>
-            <button type="button" class="btn btn-outline-success contact-btn"
-                onclick="location.href='contact.html';">Say
+            <button type="button" class="btn btn-outline-success contact-btn" onclick="contact()">Say
                 Hello!</button>
         </article>
     </section>
@@ -235,16 +230,48 @@
     </footer>
     <!-- Footer -->
 
+    <script>
+        function displayKaren() {
+            window.open(
+                'https://emkaygru.github.io/AskKaren/', '_blank'
+            );
+        }
+
+        function showSchedule() {
+            window.open(
+                'https://github.com/emkaygru/workDayScheduler', '_blank'
+            );
+        }
+
+        function showPassword() {
+            window.open(
+                'https://github.com/emkaygru/passwordGenerator', '_blank'
+            );
+        }
+
+        function showPortfolio() {
+            window.open(
+                'portfolio.html', '_blank'
+            );
+        }
+
+        function contact() {
+            window.open(
+                'contact.html', '_blank'
+            );
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-</script>
+
 
 </html>

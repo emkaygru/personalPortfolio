@@ -159,15 +159,13 @@
         <!--Contact/Work with Me  -->
         <section class="work-with-me">
 
-            <h1>Work With Me</h1>
+            <h1>Resume</h1>
             <article class="container">
-                <p id="contact-paragraph">Hi, I'm Emily. I'm a front-end developer with experience in HTML, CSS, and
-                    JavaScript. My
-                    background in
-                    design gives me the opportunity create beautiful websites. I'm a right-brained creative in a
-                    left-brained world. Please contact me - I'd love to work together!</p>
-                <button type="button" class="btn btn-outline-success contact-btn"><a href="contact.html">Say
-                        Hello!</a></button>
+                <p id="contact-paragraph">Please feel free to download or review my current resume by clicking on the
+                    link below.</p>
+                <button type="button" class="btn btn-outline-success contact-btn" onclick="newTab()">View
+                    Resume
+                </button>
             </article>
         </section>
 
@@ -225,6 +223,14 @@
 
         </footer>
         <!-- Footer -->
+
+        <script>
+            function newTab() {
+                window.open(
+                    'assets/images/E_Groenendal_Resume.pdf', '_blank'
+                );
+            }
+        </script>
     </main>
 
 </html>
