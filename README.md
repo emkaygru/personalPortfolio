@@ -1,22 +1,22 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Updated Portfolio
 
-For this assignment, I created a Personal Portfolio to showcase my previous and current work using Bootstrap framework. 
+Updated portfolio built with bootstrap.
 
+# link to deployed application: https://emkaygru.github.io/personalPortfolio/ 
 
 ## Directions
 
-Within my portfolio, you will find: 
+Within my updated portfolio, you will find: 
 
 
-* Creation of index.html page, portfolio.html page, and contact.html page
-* Utilized the use of Bootstrap to create a Nav, sections, grid layout (columns and rows and a footer)
-* Confirmed each link, button and nav item works and directs the user to the correct location
-* Created a Form on the contact page using Bootstrap's form
-* Updated Information to reflect that of my social media, work and projects.
-* Confirmed my website pages were mobile friendly and responsive
-* Navigation and footer work on all pages
-* Valid and Semantic HTML used
+* An updated portfolio featuring project 1 and two exemplary homework assignments.
 
-### Notes
+* An updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 
-While I know that there were images to refer to for the design, my day job is in Web Design, so I decided to break outside of those requirements but make sure that the code and content that was required was still within my code. I think this portfolio shows my ability to design well and is a great jumping off point to start from. 
+* An updated resume
+
+* An updated LinkedIn profile
+
+* Updated click functions on buttons
+
+* Small edits/tweaks to design elements, buttons, and fonts as needed. 
