@@ -9,7 +9,7 @@ Updated portfolio built with bootstrap.
 Within my updated portfolio, you will find: 
 
 
-* An updated portfolio featuring project 1 and two exemplary homework assignments.
+* An updated portfolio featuring project 1 and project 2 and a new homework assignment on the home page.
 
 * An updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 
